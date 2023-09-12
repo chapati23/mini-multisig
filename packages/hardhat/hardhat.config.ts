@@ -9,12 +9,12 @@ const config: HardhatUserConfig = {
   defaultNetwork: "tenderly",
   networks: {
     tenderly: {
-      url: "???",
-      chainId: -1,
+      url: "https://rpc.vnet.tenderly.co/devnet/mini-multisig-tests/8c0c3401-f35d-467c-8aa5-8ed2eda75a9c",
+      chainId: 736031,
     },
   },
   tenderly: {
-    username: "YOUR USERNAME (not email!)",
+    username: "chapati",
     project: "mini-multisig",
   },
 };
